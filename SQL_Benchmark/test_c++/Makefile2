@@ -1,0 +1,2 @@
+all: 
+	gcc -o c++ c++_sql_test.cpp -lmysqlclient -L/usr/lib64/mysql -I/usr/include/mysql
